@@ -217,15 +217,4 @@
     </visual>
   </gazebo>
 
-  <gazebo reference="eye_left_link">
-    <visual name="eye_left_screen">
-      <plugin name="display_video_controller" filename="libgazebo_ros_video.so">
-        <topicName>screen/eye_left/image</topicName>
-        <height>120</height>
-        <width>160</width>
-      </plugin>
-    </visual>
-  </gazebo>
-
-
 </robot>
